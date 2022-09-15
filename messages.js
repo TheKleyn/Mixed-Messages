@@ -24,15 +24,16 @@ function generator() {
      console.log(verbRand);
      console.log(actionRand);*/
 
-     alert(`And the very Reverend spaketh on to his flock: ${timesRand}, ${subjectRand} shalt ${verbRand} ${adjectiveRand} ${actionRand}. Amen.`)
+     return(`And the very Reverend spaketh on to his flock: ${timesRand}, ${subjectRand} shalt ${verbRand} ${adjectiveRand} ${actionRand}. Amen.`)
     
 }
+
 //final version
-/* document.getElementById("speak").addEventListener("click", function() {
+document.getElementById("speak").addEventListener("click", function() {
+     alert(generator());
+   }); 
+
+
+/*document.getElementById("myBtn").addEventListener("click", function() {
      alert("Hello World!");
    }); */
-
-
-document.getElementById("myBtn").addEventListener("click", function() {
-     alert("Hello World!");
-   });
