@@ -1,6 +1,6 @@
 // mixed messages
 
-const times = ['Today', 'Tomorrow', 'In tow weeks', 'Next year', 'In ten years', 'Next month', 'In a fortnight'];
+const times = ['Today', 'Tomorrow', 'In two weeks', 'Next year', 'In ten years', 'Next month', 'In a fortnight'];
 const subject = ['you', 'your mom', 'your dog', 'your parrot', 'your spouse', 'your boss', 'your grandpa'];
 const adjective = ['a great', 'a tiny', 'a gargantuan', 'an enourmous', 'a microscopic', 'an eternal', 'a resplendid'];
 const verb = ['experience', 'behold', 'see', 'sense', 'feel', 'percieve', 'ken'];
@@ -18,11 +18,13 @@ function generator() {
      let verbRand = verb[randNum()];
      let actionRand = action[randNum()];
 
-     console.log(timesRand);
+     /*console.log(timesRand);
      console.log(subjectRand);
      console.log(adjectiveRand);
      console.log(verbRand);
-     console.log(actionRand);
+     console.log(actionRand);*/
+
+     console.log(`And the annointed One spaketh on to the people: ${timesRand}, ${subjectRand} shalt ${verbRand} ${adjectiveRand} ${actionRand}. Amen.`)
 
      
 }
