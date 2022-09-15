@@ -24,9 +24,8 @@ function generator() {
      console.log(verbRand);
      console.log(actionRand);*/
 
-     console.log(`And the annointed One spaketh on to the people: ${timesRand}, ${subjectRand} shalt ${verbRand} ${adjectiveRand} ${actionRand}. Amen.`)
-
-     
+     console.log(`And the very Reverend spaketh on to his flock: ${timesRand}, ${subjectRand} shalt ${verbRand} ${adjectiveRand} ${actionRand}. Amen.`)
+    
 }
 
 console.log(generator());
