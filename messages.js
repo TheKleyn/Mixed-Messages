@@ -25,8 +25,9 @@ function generator() {
      console.log(actionRand);*/
 
      console.log(`And the very Reverend spaketh on to his flock: ${timesRand}, ${subjectRand} shalt ${verbRand} ${adjectiveRand} ${actionRand}. Amen.`)
+
     console.log('adding this only to the branch, let us see if it will get transferred to main');
-     
+
 }
 
 console.log(generator());
