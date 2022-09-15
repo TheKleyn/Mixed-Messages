@@ -28,9 +28,9 @@ function generator() {
     
 }
 //final version
-document.getElementById("speak").addEventListener("click", function() {
+/* document.getElementById("speak").addEventListener("click", function() {
      alert("Hello World!");
-   });
+   }); */
 
 
 document.getElementById("myBtn").addEventListener("click", function() {
