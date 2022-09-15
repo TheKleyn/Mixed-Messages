@@ -24,8 +24,15 @@ function generator() {
      console.log(verbRand);
      console.log(actionRand);*/
 
-     console.log(`And the very Reverend spaketh on to his flock: ${timesRand}, ${subjectRand} shalt ${verbRand} ${adjectiveRand} ${actionRand}. Amen.`)
+     alert(`And the very Reverend spaketh on to his flock: ${timesRand}, ${subjectRand} shalt ${verbRand} ${adjectiveRand} ${actionRand}. Amen.`)
     
 }
 //final version
-console.log(generator());
+document.getElementById("speak").addEventListener("click", function() {
+     alert("Hello World!");
+   });
+
+
+document.getElementById("myBtn").addEventListener("click", function() {
+     alert("Hello World!");
+   });
