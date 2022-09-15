@@ -1,27 +1,30 @@
 // mixed messages
 
-const times = ['today', 'tomorrow', 'in tow weeks', 'next year', 'in ten years', 'next month', 'in a fortnight'];
+const times = ['Today', 'Tomorrow', 'In tow weeks', 'Next year', 'In ten years', 'Next month', 'In a fortnight'];
 const subject = ['you', 'your mom', 'your dog', 'your parrot', 'your spouse', 'your boss', 'your grandpa'];
 const adjective = ['a great', 'a tiny', 'a gargantuan', 'an enourmous', 'a microscopic', 'an eternal', 'a resplendid'];
 const verb = ['experience', 'behold', 'see', 'sense', 'feel', 'percieve', 'ken'];
 const action = ['rubbing of parts', 'flatulance', 'existential crisis', 'menapause', 
 'hair ball', 'revelation of Mosiath', 'visitaion of Jemendel'];
 
-const generator = () => {
-    let randNum1 = Math.floor(Math.random() * 7);
-    let randNum2 = Math.floor(Math.random() * 7);
-    let randNum3 = Math.floor(Math.random() * 7);
-    let randNum4 = Math.floor(Math.random() * 7);
-    let randNum5 = Math.floor(Math.random() * 7);
+const randNum = () => {
+return Math.floor(Math.random() *7);}
 
-    console.log
-    //before unstage
+function generator() {
+     // word array random selections below
+     let timesRand = times[randNum()];
+     let subjectRand = subject[randNum()];
+     let adjectiveRand = adjective[randNum()];
+     let verbRand = verb[randNum()];
+     let actionRand = action[randNum()];
 
-    console.log(randNum1);
-    console.log(randNum2);
-    
+     console.log(timesRand);
+     console.log(subjectRand);
+     console.log(adjectiveRand);
+     console.log(verbRand);
+     console.log(actionRand);
 
-    
+     
 }
 
 console.log(generator());
