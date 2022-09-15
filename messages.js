@@ -8,8 +8,17 @@ const action = ['rubbing of parts', 'flatulance', 'existential crisis', 'menapau
 'hair ball', 'revelation of Mosiath', 'visitaion of Jemendel'];
 
 const generator = () => {
-    let randNum = Math.floor(Math.random() * 7);
-    console.log(randNum);
+    let randNum1 = Math.floor(Math.random() * 7);
+    let randNum2 = Math.floor(Math.random() * 7);
+    let randNum3 = Math.floor(Math.random() * 7);
+    let randNum4 = Math.floor(Math.random() * 7);
+    let randNum5 = Math.floor(Math.random() * 7);
+
+    console.log
+    //before unstage
+
+    console.log(randNum1);
+    console.log(randNum2);
     
 
     
